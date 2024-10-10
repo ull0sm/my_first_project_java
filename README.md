@@ -1,7 +1,7 @@
-Title: Mini Project - Number Guessing Game
+Title: Number Guessing Game
 
 Overview:
-This Java application is a simple number-guessing game where users try to guess a randomly generated number between 1 and 10. The game includes input validation and user-friendly feedback to enhance the experience.
+This Java application is a simple number-guessing game where users try to guess a randomly generated number between 1 and 10. The game includes input validation and user-friendly feedback.
 
 Code Flow and Logic:
 Initialization:
@@ -23,7 +23,7 @@ Guess Evaluation:
 If the guess is valid, the program compares "val" with the random number:
 - Correct Guess: If the guess matches the random number, the program congratulates the user and reveals the number.
 - Too High: If the guess is greater than the random number, the user is prompted to guess lower.
-- Too Low: If the guess is less than the random number and greater than or equal to 1, the user is encouraged to guess higher. Whether the guess is correct or not, the program provides the user with the correct number after each guess.
+- Too Low: If the guess is less than the random number and greater than or equal to 1, the user is encouraged to guess higher. The program provides the user with the correct number after each guess.
 
 Input Validation:
 If the user inputs a number outside the range or an invalid type, an exception is caught. The user is informed that only integers between 1 and 10 are acceptable, and the program prompts them to try again.
@@ -32,4 +32,4 @@ Exit Mechanism:
 If the user enters -1, the game exits gracefully, ending the loop.
 
 Conclusion:
-This project demonstrates a logical flow where user input drives the game’s progression. The combination of loops, conditional statements, and error handling creates an interactive experience, allowing users to engage with the game while learning basic programming concepts.
+This project demonstrates a logical flow where user input drives the game’s progression, creating an interactive experience while learning basic programming concepts.
